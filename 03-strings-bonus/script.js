@@ -30,3 +30,8 @@ console.log(cityNameConcat); // Output: "New York City"
 // Trasforma tutto in maiscuolo la stringa della variabile hello
 const upperCaseHello = hello.toUpperCase('Hello');
 console.log(upperCaseHello); // Output: "HELLO"
+
+//6. SLICE
+const sliceShoppingList = shoppingList.slice(14);
+console.log(sliceShoppingList);
+
