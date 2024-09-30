@@ -17,7 +17,7 @@ console.log(my_name);
 
 let number = 8;
 let text = 'luglio';
-let bool = 1;
+let bool = true;
 
 console.log(number, text, bool);
 
@@ -34,5 +34,5 @@ console.log(fullName); // Output: "Jane Smith"
 
 // 4. Imposta questa variabile utilizzando una proprietà
 // sulla variabile alphabet per ottenere la sua lunghezza
-const numberOfLettersInAlphabet = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
-console.log(numberOfLettersInAlphabet.length); // Output: 26
+const numberOfLettersInAlphabet = alphabet.length;
+console.log(numberOfLettersInAlphabet); // Output: 26
